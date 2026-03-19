@@ -1,0 +1,586 @@
+{
+  "channel_id": "unknown",
+  "channel_name": "unknown",
+  "analyzed_at": "2026-03-19T01:17:09.596849",
+  "videos_analyzed": 50,
+  "comments_analyzed": 0,
+  "summary": {
+    "total_views": 0,
+    "total_likes": 35215,
+    "total_comments_count": 5462,
+    "avg_views_per_video": 0,
+    "avg_engagement_rate": 0.0
+  },
+  "videos_by_engagement": [
+    {
+      "video_id": "2glnOXKEMGc",
+      "title": "$22 Billion Is Flowing Into Music Catalogs. Why Are African Artists Getting $0?",
+      "published_at": "",
+      "views": 0,
+      "likes": 91,
+      "comment_count": 24,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "8s5Je22PMCM",
+      "title": "Why the American Dream is a Broken Promise",
+      "published_at": "",
+      "views": 0,
+      "likes": 24,
+      "comment_count": 4,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "XaY0PGhO0YY",
+      "title": "3 YEARS LEFT: Why I Left Investment Banking for Africa’s AI Future",
+      "published_at": "",
+      "views": 0,
+      "likes": 181,
+      "comment_count": 38,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "4aPhRGsWaDY",
+      "title": "The One Secret to Generational Wealth Most People Miss",
+      "published_at": "",
+      "views": 0,
+      "likes": 20,
+      "comment_count": 1,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "p7SiKkMpgTk",
+      "title": "How I Built a $2.5 Billion Company in Nigeria",
+      "published_at": "",
+      "views": 0,
+      "likes": 23,
+      "comment_count": 4,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "CSnuHO-MkCk",
+      "title": "The Business of Being Omotola: From Nollywood to Global Icon",
+      "published_at": "",
+      "views": 0,
+      "likes": 34,
+      "comment_count": 2,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "X_NuybKCYHI",
+      "title": "The Nollywood Crisis: Why Being a Star Means Going Broke",
+      "published_at": "",
+      "views": 0,
+      "likes": 930,
+      "comment_count": 119,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "bJducqN53j0",
+      "title": "Why You Should Never Build Your Brand on Borrowed Land",
+      "published_at": "",
+      "views": 0,
+      "likes": 39,
+      "comment_count": 3,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "ob6uw2LfjxI",
+      "title": "The Hidden Cost of Success (Timeline Grief)",
+      "published_at": "",
+      "views": 0,
+      "likes": 115,
+      "comment_count": 6,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "ZKyemE9jJJ0",
+      "title": "Sarz: The Brutal Truth About Making It in Afrobeats",
+      "published_at": "",
+      "views": 0,
+      "likes": 1500,
+      "comment_count": 143,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "tKTv0B7Ko9k",
+      "title": "The 14 Billion Naira Refund: How I Survived the Real Estate Crash",
+      "published_at": "",
+      "views": 0,
+      "likes": 53,
+      "comment_count": 12,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "GxJwGnPs370",
+      "title": "The Truth About the African vs. African-American Divide",
+      "published_at": "",
+      "views": 0,
+      "likes": 60,
+      "comment_count": 75,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "nyH5pU9E65I",
+      "title": "The Real Reason Nigerians and South Africans Will Never Agree",
+      "published_at": "",
+      "views": 0,
+      "likes": 768,
+      "comment_count": 820,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "OHOASOfTlK4",
+      "title": "Africans vs. Black Americans: The Toxic Truth About Our Divide",
+      "published_at": "",
+      "views": 0,
+      "likes": 1300,
+      "comment_count": 522,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "LvtEXRBD95E",
+      "title": "The Truth About Elon Musk That Most South Africans Ignore",
+      "published_at": "",
+      "views": 0,
+      "likes": 777,
+      "comment_count": 322,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "q1hX6WuyzAM",
+      "title": "The Shocking Reality Of Being Nigerian In America",
+      "published_at": "",
+      "views": 0,
+      "likes": 39,
+      "comment_count": 7,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "f_nsMLTVR0o",
+      "title": "Why 90% of African Wealth DISAPPEARS by Generation 3",
+      "published_at": "",
+      "views": 0,
+      "likes": 19,
+      "comment_count": 2,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "ABTIyEoyLzU",
+      "title": "Generational Wealth is A SCAM: Why Most Inherited Money Doesn't Last",
+      "published_at": "",
+      "views": 0,
+      "likes": 406,
+      "comment_count": 36,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "PTU6hg-WzZA",
+      "title": "THE GREAT EXIT: Why Top Engineers are DUMPING Fintech for Hard Tech Startups",
+      "published_at": "",
+      "views": 0,
+      "likes": 1700,
+      "comment_count": 301,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "1ELgcw_jcl8",
+      "title": "Iyanya: The Full Story of Business, Life, and Finding His Way Back",
+      "published_at": "",
+      "views": 0,
+      "likes": 363,
+      "comment_count": 44,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "9q-vJOqt8-k",
+      "title": "29X RETURNS: The Blueprint for Building a $100 Million Portfolio in Africa",
+      "published_at": "",
+      "views": 0,
+      "likes": 489,
+      "comment_count": 51,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "XVMOCHklzLw",
+      "title": "SOFI The Oddity: The SECRET To How African Creators Are Generating MILLIONS.",
+      "published_at": "",
+      "views": 0,
+      "likes": 537,
+      "comment_count": 39,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "zE59AvMG5Ak",
+      "title": "AUSTIN AVURU: The STRATEGY That Built Nigeria's Biggest Oil & Gas Empire.",
+      "published_at": "",
+      "views": 0,
+      "likes": 887,
+      "comment_count": 77,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "AcBfQ6id6l8",
+      "title": "I Built a Global Art Empire from Nigeria (The Honest Truth)",
+      "published_at": "",
+      "views": 0,
+      "likes": 239,
+      "comment_count": 27,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "ZHre27BkmxY",
+      "title": "GAISE BABA: The SECRET To Generating Millions From The Gospel Music Industry",
+      "published_at": "",
+      "views": 0,
+      "likes": 734,
+      "comment_count": 62,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "CvE5FtMMZn4",
+      "title": "TRACY NWAPA: The Financial RISK She Took That Built—And Lost—Her Nightlife EMPIRE.",
+      "published_at": "",
+      "views": 0,
+      "likes": 1500,
+      "comment_count": 106,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "R1-LugPwm1I",
+      "title": "TAYO AINA: The Passive Income Blueprint That Funds His Worldwide Travel",
+      "published_at": "",
+      "views": 0,
+      "likes": 1700,
+      "comment_count": 197,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "VF-tyhEZRsc",
+      "title": "TAYO OVIOSU: The FinTech Scaling Blueprint That Beat Foreign Investors",
+      "published_at": "",
+      "views": 0,
+      "likes": 607,
+      "comment_count": 54,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "RTxUQ9ArA8I",
+      "title": "ADETUTU LADITAN: The Bootstrapping Strategy That Secured Her Financial FREEDOM.",
+      "published_at": "",
+      "views": 0,
+      "likes": 545,
+      "comment_count": 54,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "XqHxx8w-07k",
+      "title": "DR. JULIUS ONI: The SECRET Strategy To Financial Freedom As A World-Class Surgeon.",
+      "published_at": "",
+      "views": 0,
+      "likes": 697,
+      "comment_count": 71,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "3kFLqrfUz_U",
+      "title": "David Oyelowo: The TOXIC MYTH of Hollywood and the Future of African Film",
+      "published_at": "",
+      "views": 0,
+      "likes": 690,
+      "comment_count": 116,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "wqsyhmyANXY",
+      "title": "BANKÊ KUKU: The Luxury Design Blueprint That Built Her Global Textile EMPIRE",
+      "published_at": "",
+      "views": 0,
+      "likes": 618,
+      "comment_count": 31,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "npvk7iW-Po0",
+      "title": "AUSTIN OKERE: His $90M Tech SCALING Blueprint That Beat Global Competition",
+      "published_at": "",
+      "views": 0,
+      "likes": 1200,
+      "comment_count": 173,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "LRLOYXRkkJo",
+      "title": "Vusi Thembekwayo: The Truth About Money, His Traumas, and Building Africa’s Future",
+      "published_at": "",
+      "views": 0,
+      "likes": 5300,
+      "comment_count": 505,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "xta0Bqytyh8",
+      "title": "SIMI WILLIAMS: The PRIVATE EQUITY Strategy That Built A Multi-Million Dollar Wellness Brand.",
+      "published_at": "",
+      "views": 0,
+      "likes": 338,
+      "comment_count": 42,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "awb1VXKaptA",
+      "title": "YELE BADEMOSI: The High-Stakes INVESTMENT RISK That Built Africa's Crypto Future",
+      "published_at": "",
+      "views": 0,
+      "likes": 495,
+      "comment_count": 69,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "2t83_7r1xKA",
+      "title": "AFROPOLITAN: The BRUTAL REALITY Of Raising Millions and Losing It All (Founder's Story)",
+      "published_at": "",
+      "views": 0,
+      "likes": 482,
+      "comment_count": 79,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "k4bWcnN0Dxo",
+      "title": "The Business Behind Afrobeat Festivals And Why \"Detty December\" Became Africa's Summer Sensation",
+      "published_at": "",
+      "views": 0,
+      "likes": 483,
+      "comment_count": 53,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "jtPC2jgDnYo",
+      "title": "The Harsh Truth About Nigeria’s Music Industry Fame Betrayal And Building Billion Naira Businesses",
+      "published_at": "",
+      "views": 0,
+      "likes": 1100,
+      "comment_count": 189,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "1mlcRZgxPug",
+      "title": "IKE EZE: The Venture Capitalist Who Created MILLIONS in Investment Exits (The Blueprint)",
+      "published_at": "",
+      "views": 0,
+      "likes": 797,
+      "comment_count": 85,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "2v5p6wrnhzM",
+      "title": "FEMI KUTI: The Music Business Blueprint That Built The Afrobeat Dynasty",
+      "published_at": "",
+      "views": 0,
+      "likes": 784,
+      "comment_count": 137,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "q2jZp7o6CIw",
+      "title": "From Medicine to Harvard to Building Nigeria’s First $1B Private Equity Firm",
+      "published_at": "",
+      "views": 0,
+      "likes": 3000,
+      "comment_count": 352,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "3JclQ7Co844",
+      "title": "How I Negotiate Multi-Million Dollar Deals Without Giving Up Ownership",
+      "published_at": "",
+      "views": 0,
+      "likes": 269,
+      "comment_count": 22,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "V0HEoO69ruI",
+      "title": "How I Learned That Passion Alone Will Keep You Broke",
+      "published_at": "",
+      "views": 0,
+      "likes": 401,
+      "comment_count": 38,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "GFw6vawEezo",
+      "title": "How to Succeed When Everything Is Against You | The Billionaire Chef",
+      "published_at": "",
+      "views": 0,
+      "likes": 218,
+      "comment_count": 26,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "5WmDLWxttF0",
+      "title": "How the Creative Industry Became the Hardest Hustle No One Talks About",
+      "published_at": "",
+      "views": 0,
+      "likes": 482,
+      "comment_count": 88,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "YgYsLvdRd2M",
+      "title": "How to Build Multi Million Dollar Companies That Solve Real Problems",
+      "published_at": "",
+      "views": 0,
+      "likes": 589,
+      "comment_count": 74,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "aGkE9zOZO8Q",
+      "title": "How To Build And Inspire Millions: What Every Creator Needs to Know",
+      "published_at": "",
+      "views": 0,
+      "likes": 304,
+      "comment_count": 27,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "lhEqADNrzIA",
+      "title": "The Business Power of Personal Style vs. The Financial Cost of Impatience",
+      "published_at": "",
+      "views": 0,
+      "likes": 188,
+      "comment_count": 20,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "7dcJrWv_PBs",
+      "title": "How Companies That Built Community Before Product Are Now Worth Millions",
+      "published_at": "",
+      "views": 0,
+      "likes": 1100,
+      "comment_count": 113,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    }
+  ],
+  "best_performing": [
+    {
+      "video_id": "2glnOXKEMGc",
+      "title": "$22 Billion Is Flowing Into Music Catalogs. Why Are African Artists Getting $0?",
+      "published_at": "",
+      "views": 0,
+      "likes": 91,
+      "comment_count": 24,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "8s5Je22PMCM",
+      "title": "Why the American Dream is a Broken Promise",
+      "published_at": "",
+      "views": 0,
+      "likes": 24,
+      "comment_count": 4,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "XaY0PGhO0YY",
+      "title": "3 YEARS LEFT: Why I Left Investment Banking for Africa’s AI Future",
+      "published_at": "",
+      "views": 0,
+      "likes": 181,
+      "comment_count": 38,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    }
+  ],
+  "worst_performing": [
+    {
+      "video_id": "7dcJrWv_PBs",
+      "title": "How Companies That Built Community Before Product Are Now Worth Millions",
+      "published_at": "",
+      "views": 0,
+      "likes": 1100,
+      "comment_count": 113,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "lhEqADNrzIA",
+      "title": "The Business Power of Personal Style vs. The Financial Cost of Impatience",
+      "published_at": "",
+      "views": 0,
+      "likes": 188,
+      "comment_count": 20,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    },
+    {
+      "video_id": "aGkE9zOZO8Q",
+      "title": "How To Build And Inspire Millions: What Every Creator Needs to Know",
+      "published_at": "",
+      "views": 0,
+      "likes": 304,
+      "comment_count": 27,
+      "duration_seconds": 0,
+      "engagement_rate": 0.0
+    }
+  ],
+  "posting_frequency": {
+    "avg_days_between_posts": null,
+    "posts_analyzed": 0
+  },
+  "top_comment_keywords": [],
+  "sentiment": null
+}

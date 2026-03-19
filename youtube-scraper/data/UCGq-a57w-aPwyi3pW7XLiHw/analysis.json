@@ -1,0 +1,691 @@
+{
+  "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+  "channel_name": "UCGq-a57w-aPwyi3pW7XLiHw",
+  "analyzed_at": "2026-03-18T00:18:13.176140",
+  "videos_analyzed": 50,
+  "comments_analyzed": 25000,
+  "summary": {
+    "total_views": 124005431,
+    "total_likes": 3171000,
+    "total_comments_count": 320900,
+    "avg_views_per_video": 2480109,
+    "avg_engagement_rate": 2.7546
+  },
+  "videos_by_engagement": [
+    {
+      "video_id": "nrwNSSyKuD4",
+      "title": "No.1 Christianity Expert, Wesley Huff: Here Is The Proof That Christianity Is True!",
+      "published_at": "2026-03-09T01:00:47-07:00",
+      "views": 2845063,
+      "likes": 101000,
+      "comment_count": 18000,
+      "duration_seconds": 8814,
+      "engagement_rate": 4.1827
+    },
+    {
+      "video_id": "D3lhrrXb4WI",
+      "title": "Kamala Harris: America Is At Breaking Point & I'm Deeply Concerned About The State Of The Country!",
+      "published_at": "2025-10-30T01:00:10-07:00",
+      "views": 2465142,
+      "likes": 81000,
+      "comment_count": 20000,
+      "duration_seconds": 6358,
+      "engagement_rate": 4.0971
+    },
+    {
+      "video_id": "hQaN5w3YwtM",
+      "title": "No.1 Brain Scientist: Your Brain Is Lying To You! Here's How I Discovered The Truth!",
+      "published_at": "2025-11-06T00:01:01-08:00",
+      "views": 3031739,
+      "likes": 111000,
+      "comment_count": 8000,
+      "duration_seconds": 5755,
+      "engagement_rate": 3.9251
+    },
+    {
+      "video_id": "lylGyddTiGg",
+      "title": "Louis Tomlinson: When The Police Knocked... I Just Knew! \"The Room Was Cold That Day\".",
+      "published_at": "2025-10-09T00:00:52-07:00",
+      "views": 3241370,
+      "likes": 119000,
+      "comment_count": 4900,
+      "duration_seconds": 7101,
+      "engagement_rate": 3.8225
+    },
+    {
+      "video_id": "t38LbMVoPCs",
+      "title": "Top Intelligence Advisor: “Epstein Was A Front.” They Can See Everything, Even Your Messages!",
+      "published_at": "2026-03-02T00:00:57-08:00",
+      "views": 2267397,
+      "likes": 76000,
+      "comment_count": 6600,
+      "duration_seconds": 6288,
+      "engagement_rate": 3.6429
+    },
+    {
+      "video_id": "KVXnVe8eOkM",
+      "title": "Insulin Doctor: This Is The First Sign Of Dementia! The Shocking Link Between Keto & Brain Decline!",
+      "published_at": "2025-11-24T00:00:31-08:00",
+      "views": 3961195,
+      "likes": 122000,
+      "comment_count": 9500,
+      "duration_seconds": 6698,
+      "engagement_rate": 3.3197
+    },
+    {
+      "video_id": "ZE_H7rijrVk",
+      "title": "No. 1 Sugar Expert: You've Been Sold A Lie About \"Healthy\" Food!",
+      "published_at": "2025-10-01T22:00:35-07:00",
+      "views": 2775639,
+      "likes": 85000,
+      "comment_count": 6500,
+      "duration_seconds": 6648,
+      "engagement_rate": 3.2965
+    },
+    {
+      "video_id": "5Tr7AhkOEj4",
+      "title": "The Poo Doctor: This Cheap Spice Fixes A Damaged Gut!",
+      "published_at": "2026-01-01T00:00:06-08:00",
+      "views": 1888140,
+      "likes": 55000,
+      "comment_count": 4800,
+      "duration_seconds": 7896,
+      "engagement_rate": 3.1671
+    },
+    {
+      "video_id": "C7LL7VwP8Nc",
+      "title": "Insulin Expert: How To 'Drain' Your Liver of Fat (Do This!)",
+      "published_at": "2026-01-08T00:00:26-08:00",
+      "views": 2422846,
+      "likes": 71000,
+      "comment_count": 4700,
+      "duration_seconds": 7307,
+      "engagement_rate": 3.1244
+    },
+    {
+      "video_id": "kizDk8idpT8",
+      "title": "Hormone & Fertility Experts: We've Been Lied To About Women's Health! If This Happens, Call A Doctor",
+      "published_at": "2025-10-16T00:00:54-07:00",
+      "views": 2388057,
+      "likes": 67000,
+      "comment_count": 5300,
+      "duration_seconds": 12847,
+      "engagement_rate": 3.0276
+    },
+    {
+      "video_id": "0t_DD5568RA",
+      "title": "Cognitive Decline Expert: The Disease That Starts in Your 30s but Kills You in Your 70s",
+      "published_at": "2026-02-05T00:00:03-08:00",
+      "views": 1871009,
+      "likes": 52000,
+      "comment_count": 4600,
+      "duration_seconds": 7482,
+      "engagement_rate": 3.0251
+    },
+    {
+      "video_id": "DazRYdqZRDI",
+      "title": "Secret Agent: Authenticity Is Quietly Sabotaging You! Do This & They'll Stop Respecting You!",
+      "published_at": "2025-09-25T00:00:23-07:00",
+      "views": 1744502,
+      "likes": 48000,
+      "comment_count": 3800,
+      "duration_seconds": 9971,
+      "engagement_rate": 2.9693
+    },
+    {
+      "video_id": "gW3vVIFRVhw",
+      "title": "Neil deGrasse Tyson: The Harsh Truth About Horoscopes (sorry but it’s true)",
+      "published_at": "2025-10-12T23:00:39-07:00",
+      "views": 3779459,
+      "likes": 100000,
+      "comment_count": 10000,
+      "duration_seconds": 7556,
+      "engagement_rate": 2.9105
+    },
+    {
+      "video_id": "nJeU72Rgjh4",
+      "title": "The Man Warning The West: Trump Is Changing The World Behind The Scenes",
+      "published_at": "2026-01-22T00:00:52-08:00",
+      "views": 5506516,
+      "likes": 134000,
+      "comment_count": 23000,
+      "duration_seconds": 5726,
+      "engagement_rate": 2.8512
+    },
+    {
+      "video_id": "xcXfcXJvMXg",
+      "title": "The Iran War Expert: I Simulated The Iran War for 20 Years. Here’s What Happens Next",
+      "published_at": "2026-03-12T01:00:59-07:00",
+      "views": 4948787,
+      "likes": 123000,
+      "comment_count": 18000,
+      "duration_seconds": 5338,
+      "engagement_rate": 2.8492
+    },
+    {
+      "video_id": "BFU1OCkhBwo",
+      "title": "AI Expert: Here Is What The World Looks Like In 2 Years! Tristan Harris",
+      "published_at": "2025-11-27T00:00:26-08:00",
+      "views": 4432021,
+      "likes": 110000,
+      "comment_count": 16000,
+      "duration_seconds": 8540,
+      "engagement_rate": 2.8429
+    },
+    {
+      "video_id": "jroF3PH-PTs",
+      "title": "Brené Brown: The Algorithms Have Forced Us Into A Hidden Epidemic, This Is The Only Way Out!",
+      "published_at": "2025-11-03T00:00:56-08:00",
+      "views": 2007534,
+      "likes": 53000,
+      "comment_count": 3900,
+      "duration_seconds": 6641,
+      "engagement_rate": 2.8343
+    },
+    {
+      "video_id": "I_w81rptxkc",
+      "title": "Tony Robbins: No One Is Ready For What's Coming (The truth about AI).",
+      "published_at": "2026-01-15T00:00:31-08:00",
+      "views": 5008562,
+      "likes": 134000,
+      "comment_count": 7500,
+      "duration_seconds": 7239,
+      "engagement_rate": 2.8252
+    },
+    {
+      "video_id": "pXlMKzcZlwM",
+      "title": "Sleep Doctor: If You Wake Up At 3AM, DO NOT Do This!",
+      "published_at": "2026-02-09T00:00:55-08:00",
+      "views": 4631039,
+      "likes": 123000,
+      "comment_count": 7500,
+      "duration_seconds": 8654,
+      "engagement_rate": 2.8179
+    },
+    {
+      "video_id": "qxxnRMT9C-8",
+      "title": "World No.1 Sleep Expert: Magnesium Isn’t Helping You Sleep! This Habit Increases Heart Disease 57%!",
+      "published_at": "2025-11-17T00:01:07-08:00",
+      "views": 1717166,
+      "likes": 44000,
+      "comment_count": 4000,
+      "duration_seconds": 8246,
+      "engagement_rate": 2.7953
+    },
+    {
+      "video_id": "e9dljIL4rBk",
+      "title": "WW3 Threat Assessment: Trump Bombing Iran Makes WW3 More Likely!",
+      "published_at": "2026-03-04T00:00:43-08:00",
+      "views": 3271672,
+      "likes": 76000,
+      "comment_count": 15000,
+      "duration_seconds": 8212,
+      "engagement_rate": 2.7815
+    },
+    {
+      "video_id": "EScgrk7oEwU",
+      "title": "Brain Rot Emergency: These Internal Documents Prove They’re Controlling You!",
+      "published_at": "2026-02-16T00:00:30-08:00",
+      "views": 1382357,
+      "likes": 35000,
+      "comment_count": 3200,
+      "duration_seconds": 8324,
+      "engagement_rate": 2.7634
+    },
+    {
+      "video_id": "Uvy5mcLiWW0",
+      "title": "World No.1 Divorce Lawyer: If You Do This, Your Marriage Is Already Over.",
+      "published_at": "2026-02-12T00:00:35-08:00",
+      "views": 1074977,
+      "likes": 27000,
+      "comment_count": 2300,
+      "duration_seconds": 7535,
+      "engagement_rate": 2.7256
+    },
+    {
+      "video_id": "w3dTmyZq4Qk",
+      "title": "The Microbiome Doctor: Doctors Were Wrong! The 3 Foods You Should Eat For Perfect Gut Health!",
+      "published_at": "2026-01-26T00:01:06-08:00",
+      "views": 1698357,
+      "likes": 43000,
+      "comment_count": 2700,
+      "duration_seconds": 5919,
+      "engagement_rate": 2.6908
+    },
+    {
+      "video_id": "4qfxHfBJ3Mw",
+      "title": "Oz Pearlman (Mentalist): This Small Mistake Makes People Dislike You! They Do This, They’re Lying!",
+      "published_at": "2025-10-23T00:00:03-07:00",
+      "views": 2835260,
+      "likes": 72000,
+      "comment_count": 3800,
+      "duration_seconds": 4768,
+      "engagement_rate": 2.6735
+    },
+    {
+      "video_id": "fpETS6q1Hww",
+      "title": "Daniel Priestley: AI Will Make Plumbers Earn More Than Lawyers! (2029 PREDICTION)",
+      "published_at": "2026-03-16T01:00:47-07:00",
+      "views": 887327,
+      "likes": 20000,
+      "comment_count": 3600,
+      "duration_seconds": 7356,
+      "engagement_rate": 2.6597
+    },
+    {
+      "video_id": "2ZKLaUbB33o",
+      "title": "Dopamine Expert: How TikTok Is Physically Rewiring Your Brain (Permanent Damage?)",
+      "published_at": "2026-01-05T00:00:05-08:00",
+      "views": 1207616,
+      "likes": 30000,
+      "comment_count": 2100,
+      "duration_seconds": 6378,
+      "engagement_rate": 2.6581
+    },
+    {
+      "video_id": "sR7S2Q3c04g",
+      "title": "I Met An Uncontacted Tribe: They Killed My Friend! (VIDEO PROOF)",
+      "published_at": "2026-02-02T00:01:05-08:00",
+      "views": 1462987,
+      "likes": 35000,
+      "comment_count": 3800,
+      "duration_seconds": 9943,
+      "engagement_rate": 2.6521
+    },
+    {
+      "video_id": "Esu8BXLBmZ4",
+      "title": "Atheist vs Christian vs Spiritual Thinker: Is Not Believing In God Causing More Harm Than Good?!",
+      "published_at": "2025-09-29T00:00:15-07:00",
+      "views": 3174070,
+      "likes": 64000,
+      "comment_count": 19000,
+      "duration_seconds": 12064,
+      "engagement_rate": 2.6149
+    },
+    {
+      "video_id": "Oipkl53n938",
+      "title": "The 6 Science Backed Brain Fixes Most People Are Ignoring!",
+      "published_at": "2025-12-26T00:00:27-08:00",
+      "views": 1326177,
+      "likes": 33000,
+      "comment_count": 1200,
+      "duration_seconds": 3916,
+      "engagement_rate": 2.5788
+    },
+    {
+      "video_id": "GFyijjy1KdU",
+      "title": "Tim Ferriss: The Hidden Nerve That Controls Trauma, Mood & Emotional Pain!",
+      "published_at": "2025-11-13T00:00:28-08:00",
+      "views": 780145,
+      "likes": 19000,
+      "comment_count": 1000,
+      "duration_seconds": 4146,
+      "engagement_rate": 2.5636
+    },
+    {
+      "video_id": "ZPVdK9v0CK8",
+      "title": "The Gaslighting Expert: If They Do This, You're Being Manipulated!",
+      "published_at": "2025-12-22T00:00:46-08:00",
+      "views": 1767036,
+      "likes": 41000,
+      "comment_count": 2700,
+      "duration_seconds": 10110,
+      "engagement_rate": 2.4731
+    },
+    {
+      "video_id": "yUNoJ32eLBc",
+      "title": "CIA Whistleblower: They Can See All Your Messages!",
+      "published_at": "2026-01-19T00:01:16-08:00",
+      "views": 9541894,
+      "likes": 219000,
+      "comment_count": 15000,
+      "duration_seconds": 6356,
+      "engagement_rate": 2.4523
+    },
+    {
+      "video_id": "VsTMXuIV3OM",
+      "title": "The Woman Who Makes Millionaires: Only 1% of People Do This! The PPF Framework Will 10x Your Income!",
+      "published_at": "2025-11-10T00:00:49-08:00",
+      "views": 890384,
+      "likes": 18000,
+      "comment_count": 3800,
+      "duration_seconds": 6341,
+      "engagement_rate": 2.4484
+    },
+    {
+      "video_id": "5sCGZAcXKWg",
+      "title": "Kevin Hart: They're Lying To You About How To Become A Millionaire! I Was Doing 28 Sets A Weekend!",
+      "published_at": "2025-11-20T00:00:07-08:00",
+      "views": 2385161,
+      "likes": 55000,
+      "comment_count": 3100,
+      "duration_seconds": 5793,
+      "engagement_rate": 2.4359
+    },
+    {
+      "video_id": "4QLWlcneJig",
+      "title": "Passive Income Expert: How To Make $10k Per Month In 90 Days!",
+      "published_at": "2025-12-08T00:00:06-08:00",
+      "views": 3655960,
+      "likes": 85000,
+      "comment_count": 3700,
+      "duration_seconds": 7903,
+      "engagement_rate": 2.4262
+    },
+    {
+      "video_id": "Xm_PHZXGe-w",
+      "title": "They're Lying About 'Healthy' Foods & Sugar! Shocking New Research That's Harming You",
+      "published_at": "2026-02-26T00:00:42-08:00",
+      "views": 798626,
+      "likes": 18000,
+      "comment_count": 1200,
+      "duration_seconds": 5734,
+      "engagement_rate": 2.4041
+    },
+    {
+      "video_id": "q_vZ4H3uW28",
+      "title": "Chris Williamson: Fix This One Habit And 2026 Will Be Your Best Year!",
+      "published_at": "2025-12-29T00:01:00-08:00",
+      "views": 2571601,
+      "likes": 55000,
+      "comment_count": 6800,
+      "duration_seconds": 8875,
+      "engagement_rate": 2.4032
+    },
+    {
+      "video_id": "P1CeHGJOX5g",
+      "title": "Women's Exercise Debate: The 7 Weight Loss Lies Women Believe!",
+      "published_at": "2025-10-27T01:00:33-07:00",
+      "views": 1609609,
+      "likes": 36000,
+      "comment_count": 2500,
+      "duration_seconds": 9384,
+      "engagement_rate": 2.3919
+    },
+    {
+      "video_id": "99xyy1nUpug",
+      "title": "Early Retirement Expert: A House Vs Stocks... (Here Is The Truth)",
+      "published_at": "2026-01-29T00:00:07-08:00",
+      "views": 2301697,
+      "likes": 50000,
+      "comment_count": 4500,
+      "duration_seconds": 6577,
+      "engagement_rate": 2.3678
+    },
+    {
+      "video_id": "TYXzR5KahEg",
+      "title": "Top Harvard Professor: The Psychology Of Why People Don't Like You!",
+      "published_at": "2025-12-15T00:00:40-08:00",
+      "views": 1204561,
+      "likes": 26000,
+      "comment_count": 2400,
+      "duration_seconds": 9093,
+      "engagement_rate": 2.3577
+    },
+    {
+      "video_id": "ajgwabD4_HE",
+      "title": "World's Greatest Climber: If I Had One Last Climb It Would Be...",
+      "published_at": "2026-02-19T00:00:05-08:00",
+      "views": 902721,
+      "likes": 19000,
+      "comment_count": 1700,
+      "duration_seconds": 5836,
+      "engagement_rate": 2.2931
+    },
+    {
+      "video_id": "zQ1POHiR8m8",
+      "title": "Godfather of AI: We Have 2 Years Before Everything Changes!",
+      "published_at": "2025-12-18T00:01:21-08:00",
+      "views": 1840970,
+      "likes": 37000,
+      "comment_count": 5000,
+      "duration_seconds": 5987,
+      "engagement_rate": 2.2814
+    },
+    {
+      "video_id": "xDQyLnNAXr4",
+      "title": "Secret Service Agent: How To Stay In Control When Someone Is Trying To Manipulate You!",
+      "published_at": "2025-12-01T00:01:15-08:00",
+      "views": 1128301,
+      "likes": 24000,
+      "comment_count": 1500,
+      "duration_seconds": 4884,
+      "engagement_rate": 2.26
+    },
+    {
+      "video_id": "FoeQUNASmTU",
+      "title": "Passive Income Expert: Buying A House Makes You Poorer Than Renting!",
+      "published_at": "2026-01-12T00:00:17-08:00",
+      "views": 1726889,
+      "likes": 35000,
+      "comment_count": 3600,
+      "duration_seconds": 8102,
+      "engagement_rate": 2.2352
+    },
+    {
+      "video_id": "UMy6GESNkDc",
+      "title": "Jürgen Klopp: Would You Go Back To Manage LFC...? The Real Reason I Fell In Love With Liverpool!",
+      "published_at": "2025-10-20T00:00:34-07:00",
+      "views": 2462709,
+      "likes": 51000,
+      "comment_count": 3800,
+      "duration_seconds": 8905,
+      "engagement_rate": 2.2252
+    },
+    {
+      "video_id": "rtufWBLOXgw",
+      "title": "Discipline Expert: The Habit That Will Make Or Break Your Entire 2026!",
+      "published_at": "2025-12-11T00:01:10-08:00",
+      "views": 1726771,
+      "likes": 37000,
+      "comment_count": 1200,
+      "duration_seconds": 7879,
+      "engagement_rate": 2.2122
+    },
+    {
+      "video_id": "P7Y-fynYsgE",
+      "title": "An AI Expert Warning: 6 People Are (Quietly) Deciding Humanity’s Future!",
+      "published_at": "2025-12-04T00:00:38-08:00",
+      "views": 2371958,
+      "likes": 43000,
+      "comment_count": 8000,
+      "duration_seconds": 7446,
+      "engagement_rate": 2.1501
+    },
+    {
+      "video_id": "s52O1JH2tnU",
+      "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber!",
+      "published_at": "2026-02-23T00:01:03-08:00",
+      "views": 705246,
+      "likes": 12000,
+      "comment_count": 2900,
+      "duration_seconds": 6196,
+      "engagement_rate": 2.1127
+    },
+    {
+      "video_id": "jFlnRBO8mcg",
+      "title": "The Savings Expert: Passive Income Is A Scam! Post-Traumatic Broke Syndrome Is Controlling Millions!",
+      "published_at": "2025-10-06T00:00:44-07:00",
+      "views": 2379209,
+      "likes": 47000,
+      "comment_count": 3200,
+      "duration_seconds": 7629,
+      "engagement_rate": 2.1099
+    }
+  ],
+  "best_performing": [
+    {
+      "video_id": "nrwNSSyKuD4",
+      "title": "No.1 Christianity Expert, Wesley Huff: Here Is The Proof That Christianity Is True!",
+      "published_at": "2026-03-09T01:00:47-07:00",
+      "views": 2845063,
+      "likes": 101000,
+      "comment_count": 18000,
+      "duration_seconds": 8814,
+      "engagement_rate": 4.1827
+    },
+    {
+      "video_id": "D3lhrrXb4WI",
+      "title": "Kamala Harris: America Is At Breaking Point & I'm Deeply Concerned About The State Of The Country!",
+      "published_at": "2025-10-30T01:00:10-07:00",
+      "views": 2465142,
+      "likes": 81000,
+      "comment_count": 20000,
+      "duration_seconds": 6358,
+      "engagement_rate": 4.0971
+    },
+    {
+      "video_id": "hQaN5w3YwtM",
+      "title": "No.1 Brain Scientist: Your Brain Is Lying To You! Here's How I Discovered The Truth!",
+      "published_at": "2025-11-06T00:01:01-08:00",
+      "views": 3031739,
+      "likes": 111000,
+      "comment_count": 8000,
+      "duration_seconds": 5755,
+      "engagement_rate": 3.9251
+    }
+  ],
+  "worst_performing": [
+    {
+      "video_id": "jFlnRBO8mcg",
+      "title": "The Savings Expert: Passive Income Is A Scam! Post-Traumatic Broke Syndrome Is Controlling Millions!",
+      "published_at": "2025-10-06T00:00:44-07:00",
+      "views": 2379209,
+      "likes": 47000,
+      "comment_count": 3200,
+      "duration_seconds": 7629,
+      "engagement_rate": 2.1099
+    },
+    {
+      "video_id": "s52O1JH2tnU",
+      "title": "Uber CEO: I Have To Be Honest, AI Will Replace 9.4 Million Jobs At Uber!",
+      "published_at": "2026-02-23T00:01:03-08:00",
+      "views": 705246,
+      "likes": 12000,
+      "comment_count": 2900,
+      "duration_seconds": 6196,
+      "engagement_rate": 2.1127
+    },
+    {
+      "video_id": "P7Y-fynYsgE",
+      "title": "An AI Expert Warning: 6 People Are (Quietly) Deciding Humanity’s Future!",
+      "published_at": "2025-12-04T00:00:38-08:00",
+      "views": 2371958,
+      "likes": 43000,
+      "comment_count": 8000,
+      "duration_seconds": 7446,
+      "engagement_rate": 2.1501
+    }
+  ],
+  "posting_frequency": {
+    "avg_days_between_posts": 3.0,
+    "posts_analyzed": 50,
+    "posts_last_30_days": 9,
+    "posts_last_90_days": 26,
+    "first_post": "2025-09-25T00:00:23-07:00",
+    "latest_post": "2026-03-16T01:00:47-07:00"
+  },
+  "top_comment_keywords": [
+    {
+      "word": "life",
+      "count": 2323
+    },
+    {
+      "word": "years",
+      "count": 1719
+    },
+    {
+      "word": "interview",
+      "count": 1643
+    },
+    {
+      "word": "work",
+      "count": 1525
+    },
+    {
+      "word": "podcast",
+      "count": 1460
+    },
+    {
+      "word": "being",
+      "count": 1440
+    },
+    {
+      "word": "steven",
+      "count": 1428
+    },
+    {
+      "word": "best",
+      "count": 1366
+    },
+    {
+      "word": "think",
+      "count": 1355
+    },
+    {
+      "word": "many",
+      "count": 1330
+    },
+    {
+      "word": "them",
+      "count": 1328
+    },
+    {
+      "word": "these",
+      "count": 1319
+    },
+    {
+      "word": "conversation",
+      "count": 1279
+    },
+    {
+      "word": "only",
+      "count": 1241
+    },
+    {
+      "word": "never",
+      "count": 1201
+    },
+    {
+      "word": "always",
+      "count": 1156
+    },
+    {
+      "word": "episode",
+      "count": 1155
+    },
+    {
+      "word": "feel",
+      "count": 1150
+    },
+    {
+      "word": "world",
+      "count": 1139
+    },
+    {
+      "word": "other",
+      "count": 1065
+    },
+    {
+      "word": "every",
+      "count": 1015
+    },
+    {
+      "word": "well",
+      "count": 1001
+    },
+    {
+      "word": "sleep",
+      "count": 980
+    },
+    {
+      "word": "after",
+      "count": 976
+    },
+    {
+      "word": "back",
+      "count": 963
+    }
+  ],
+  "sentiment": null
+}

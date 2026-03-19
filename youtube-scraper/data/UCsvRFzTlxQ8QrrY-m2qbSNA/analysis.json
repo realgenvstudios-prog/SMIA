@@ -1,0 +1,146 @@
+{
+  "channel_id": "UCsvRFzTlxQ8QrrY-m2qbSNA",
+  "channel_name": "UCsvRFzTlxQ8QrrY-m2qbSNA",
+  "analyzed_at": "2026-03-17T23:27:23.357775",
+  "videos_analyzed": 1,
+  "comments_analyzed": 279,
+  "summary": {
+    "total_views": 83162,
+    "total_likes": 3500,
+    "total_comments_count": 336,
+    "avg_views_per_video": 83162,
+    "avg_engagement_rate": 4.6127
+  },
+  "videos_by_engagement": [
+    {
+      "video_id": "xwLrHUwGtJM",
+      "title": "How to Make Easy Money in Ghana | Ama Burland",
+      "published_at": "2026-03-06T08:01:24-08:00",
+      "views": 83162,
+      "likes": 3500,
+      "comment_count": 336,
+      "duration_seconds": 4676,
+      "engagement_rate": 4.6127
+    }
+  ],
+  "best_performing": [
+    {
+      "video_id": "xwLrHUwGtJM",
+      "title": "How to Make Easy Money in Ghana | Ama Burland",
+      "published_at": "2026-03-06T08:01:24-08:00",
+      "views": 83162,
+      "likes": 3500,
+      "comment_count": 336,
+      "duration_seconds": 4676,
+      "engagement_rate": 4.6127
+    }
+  ],
+  "worst_performing": [],
+  "posting_frequency": {
+    "avg_days_between_posts": null,
+    "posts_analyzed": 1
+  },
+  "top_comment_keywords": [
+    {
+      "word": "made",
+      "count": 38
+    },
+    {
+      "word": "podcast",
+      "count": 35
+    },
+    {
+      "word": "interview",
+      "count": 30
+    },
+    {
+      "word": "derrick",
+      "count": 20
+    },
+    {
+      "word": "burland",
+      "count": 19
+    },
+    {
+      "word": "princess",
+      "count": 14
+    },
+    {
+      "word": "enjoyed",
+      "count": 14
+    },
+    {
+      "word": "conversation",
+      "count": 14
+    },
+    {
+      "word": "siblings",
+      "count": 14
+    },
+    {
+      "word": "interesting",
+      "count": 14
+    },
+    {
+      "word": "well",
+      "count": 13
+    },
+    {
+      "word": "here",
+      "count": 13
+    },
+    {
+      "word": "inspiring",
+      "count": 13
+    },
+    {
+      "word": "loved",
+      "count": 12
+    },
+    {
+      "word": "episode",
+      "count": 12
+    },
+    {
+      "word": "life",
+      "count": 11
+    },
+    {
+      "word": "business",
+      "count": 11
+    },
+    {
+      "word": "watching",
+      "count": 11
+    },
+    {
+      "word": "part",
+      "count": 10
+    },
+    {
+      "word": "inspired",
+      "count": 10
+    },
+    {
+      "word": "konnected",
+      "count": 10
+    },
+    {
+      "word": "every",
+      "count": 10
+    },
+    {
+      "word": "step",
+      "count": 10
+    },
+    {
+      "word": "lady",
+      "count": 10
+    },
+    {
+      "word": "doing",
+      "count": 9
+    }
+  ],
+  "sentiment": null
+}

@@ -1,0 +1,45 @@
+{
+  "channel_id": "UC_Ktic72t5bDX_3go_9u_pg",
+  "channel_name": "UC_Ktic72t5bDX_3go_9u_pg",
+  "analyzed_at": "2026-03-19T00:52:35.126174",
+  "videos_analyzed": 1,
+  "comments_analyzed": 0,
+  "summary": {
+    "total_views": 0,
+    "total_likes": 19,
+    "total_comments_count": 0,
+    "avg_views_per_video": 0,
+    "avg_engagement_rate": 0.0
+  },
+  "videos_by_engagement": [
+    {
+      "video_id": "ZdwJZMmcpi4",
+      "title": "Public Speaking | Part 37",
+      "published_at": "2024-09-15T21:34:25-07:00",
+      "views": 0,
+      "likes": 19,
+      "comment_count": 0,
+      "duration_seconds": 131,
+      "engagement_rate": 0.0
+    }
+  ],
+  "best_performing": [
+    {
+      "video_id": "ZdwJZMmcpi4",
+      "title": "Public Speaking | Part 37",
+      "published_at": "2024-09-15T21:34:25-07:00",
+      "views": 0,
+      "likes": 19,
+      "comment_count": 0,
+      "duration_seconds": 131,
+      "engagement_rate": 0.0
+    }
+  ],
+  "worst_performing": [],
+  "posting_frequency": {
+    "avg_days_between_posts": null,
+    "posts_analyzed": 1
+  },
+  "top_comment_keywords": [],
+  "sentiment": null
+}

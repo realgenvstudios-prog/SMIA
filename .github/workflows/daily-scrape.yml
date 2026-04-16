@@ -1,83 +1,98 @@
-name: Daily SMIP Scrape & Analysis
+name: Daily SMIP Scrape + Analysis
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 6:00 AM UTC = 6:00 AM Ghana time (Ghana is UTC+0)
-  workflow_dispatch:        # manual trigger from GitHub UI anytime
+    # Every day at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:
-  scrape-and-analyse:
+  scrape-and-analyze:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
-
-    env:
-      SUPABASE_URL:      ${{ secrets.SUPABASE_URL }}
-      SUPABASE_KEY:      ${{ secrets.SUPABASE_KEY }}
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      CI: "true"           # triggers today-only date filter + headless mode
+    timeout-minutes: 60
 
     steps:
-      # ── 1. Get the code ────────────────────────────────────────────────────
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      # ── 2. Python setup ────────────────────────────────────────────────────
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      # ── 3. Install dependencies ────────────────────────────────────────────
-      - name: Install Python packages
-        run: pip install patchright supabase python-dotenv anthropic scrapling
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r ${{ github.workspace }}/ghana-intel/requirements.txt
 
-      # ── 4. Install headless Chromium ───────────────────────────────────────
-      - name: Install Patchright browser
-        run: python -m patchright install chromium
-
-      # ── 5. Restore login sessions ──────────────────────────────────────────
-      # These are base64-encoded copies of your session JSON files.
-      # To encode locally and copy to clipboard:
-      #   base64 -i tiktok-scraper/tiktok_session.json | pbcopy
-      # Then paste as a GitHub Secret (Settings > Secrets > Actions)
-      - name: Restore TikTok session
-        run: echo "${{ secrets.TIKTOK_SESSION }}" | base64 -d > tiktok-scraper/tiktok_session.json
+      - name: Scrape Instagram (Apify)
+        working-directory: ${{ github.workspace }}/instagram-scraper
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scraper_apify.py
         continue-on-error: true
 
-      - name: Restore Instagram session
-        run: echo "${{ secrets.INSTAGRAM_SESSION }}" | base64 -d > instagram-scraper/instagram_session.json
+      - name: Scrape TikTok Videos (Apify)
+        working-directory: ${{ github.workspace }}/tiktok-scraper
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scraper_apify.py
         continue-on-error: true
 
-      - name: Restore Facebook session
-        run: echo "${{ secrets.FB_SESSION }}" | base64 -d > facebook-scraper/fb_session.json
-        continue-on-error: true
-
-      - name: Restore Twitter/X session
-        run: echo "${{ secrets.X_SESSION }}" | base64 -d > twitter-scraper/x_session.json
-        continue-on-error: true
-
-      # ── 6. Run scrapers (today's posts only, no comments for speed) ────────
-      - name: Scrape TikTok
-        run: cd tiktok-scraper && python3 run.py --videos-only
-        continue-on-error: true
-
-      - name: Scrape Instagram
-        run: cd instagram-scraper && python3 run.py --posts-only
-        continue-on-error: true
-
-      - name: Scrape Facebook
-        run: cd facebook-scraper && python3 run.py --posts-only
+      - name: Scrape TikTok Comments (Apify)
+        working-directory: ${{ github.workspace }}/tiktok-scraper
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python3 scraper_apify_comments.py
         continue-on-error: true
 
       - name: Scrape YouTube
-        run: cd youtube-scraper && python3 run.py --no-comments
+        working-directory: ${{ github.workspace }}/youtube-scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 scraper.py
         continue-on-error: true
 
-      - name: Scrape Twitter/X
-        run: cd twitter-scraper && python3 run.py --replies-only
+      - name: Scrape Twitter
+        working-directory: ${{ github.workspace }}/twitter-scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          TWITTER_ACCOUNTS: ${{ secrets.TWITTER_ACCOUNTS }}
+        run: python3 scraper.py
         continue-on-error: true
 
-      # ── 7. Run AI analysis on today's data ─────────────────────────────────
-      - name: Run AI Analysis
-        run: python3 analyze.py --brand konnected-minds --days 1
+      - name: Scrape Facebook (headless)
+        working-directory: ${{ github.workspace }}/facebook-scraper
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          if [ -f fb_session.json ]; then
+            python3 scraper.py
+          else
+            echo "Skipping Facebook — no session file (requires manual login via login.py)"
+          fi
+        continue-on-error: true
+
+      - name: Run AI Analysis Pipeline
+        working-directory: ${{ github.workspace }}/ghana-intel
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 processing/analyze.py
+        continue-on-error: true
+
+      - name: Done
+        if: always()
+        run: echo "SMIP daily pipeline complete. Check Supabase for updates."

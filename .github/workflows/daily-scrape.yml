@@ -32,7 +32,7 @@ jobs:
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python3 scraper_apify.py
+        run: python3 scraper.py
         continue-on-error: true
 
       - name: Scrape TikTok Videos (Apify)
@@ -41,7 +41,7 @@ jobs:
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python3 scraper_apify.py
+        run: python3 scraper.py
         continue-on-error: true
 
       - name: Scrape TikTok Comments (Apify)
@@ -50,7 +50,7 @@ jobs:
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python3 scraper_apify_comments.py
+        run: python3 scraper.py --comments-only
         continue-on-error: true
 
       - name: Scrape YouTube

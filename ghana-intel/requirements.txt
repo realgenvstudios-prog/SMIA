@@ -1,0 +1,70 @@
+# ── Core async / task queue ───────────────────────────────────────────────────
+celery[redis]==5.3.6
+redis==5.0.3
+flower==2.0.1                   # Celery monitoring UI
+
+# ── Scraping framework ────────────────────────────────────────────────────────
+scrapy==2.11.1
+playwright==1.43.0
+scrapy-playwright==0.0.34
+
+# ── Twitter / X ───────────────────────────────────────────────────────────────
+twscrape==0.12.1
+twikit==1.5.3
+
+# ── TikTok ────────────────────────────────────────────────────────────────────
+TikTokApi==6.3.0
+pyktok==0.0.19
+
+# ── Instagram ─────────────────────────────────────────────────────────────────
+instaloader==4.10.3
+
+# ── YouTube ───────────────────────────────────────────────────────────────────
+google-api-python-client==2.125.0
+yt-dlp==2024.4.9
+
+# ── Reddit ────────────────────────────────────────────────────────────────────
+praw==7.7.1
+asyncpraw==7.7.1
+
+# ── Facebook ──────────────────────────────────────────────────────────────────
+facebook-scraper==0.2.59
+
+# ── Podcasts ──────────────────────────────────────────────────────────────────
+feedparser==6.0.11
+
+# ── Storage — Cloudflare R2 (S3-compatible) ───────────────────────────────────
+boto3==1.34.84
+botocore==1.34.84
+
+# ── Database — Supabase ───────────────────────────────────────────────────────
+supabase==2.4.6
+postgrest==0.16.7
+
+# ── AI / NLP ──────────────────────────────────────────────────────────────────
+anthropic==0.25.8
+spacy==3.7.4
+langdetect==1.0.9
+lingua-language-detector==2.0.2  # better Twi/Pidgin detection than langdetect
+
+# ── FastAPI backend ───────────────────────────────────────────────────────────
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+python-jose[cryptography]==3.3.0  # JWT
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.9
+
+# ── HTTP / networking ─────────────────────────────────────────────────────────
+httpx==0.27.0
+aiohttp==3.9.5
+requests==2.31.0
+tenacity==8.2.3                 # retry logic with exponential backoff
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.7.0
+pydantic-settings==2.2.1
+structlog==24.1.0               # structured JSON logging
+python-dateutil==2.9.0
+orjson==3.10.1                  # fast JSON serialisation
+tqdm==4.66.2                    # progress bars for bulk jobs

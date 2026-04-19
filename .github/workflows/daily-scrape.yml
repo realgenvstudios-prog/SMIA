@@ -24,8 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install -r ${{ github.workspace }}/ghana-intel/requirements.txt
-        continue-on-error: false
+          pip install -r ${{ github.workspace }}/ghana-intel/requirements-ci.txt
 
       - name: Scrape Instagram (Apify)
         working-directory: ${{ github.workspace }}/instagram-scraper
